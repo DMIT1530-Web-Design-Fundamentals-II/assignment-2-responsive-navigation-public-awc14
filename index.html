@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Totally Semantic Title</title>
-
-		<meta name="author" content="Your Name Here">
-		<meta name="description" content="This is a basic index template; therefore, the content of this tag will need to be updated later.">
-
-		<!-- Google Fonts -->
-
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
-		<div class="container">
-			<h1>Hello, world!</h1>
-		</div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+	<meta name="author" content="Abdulwaseh Cheema">
+	<meta name="description" content="This is the completed 320px view from the provided psd. 
+	I was unable to complete the larger views on time due to underestimating the assignment.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modern-reset.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-bar">
+                <h1>Blog</h1>
+                <img src="img/svg/menu.svg" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
+            </div>
+            <nav id="menu" class="menu">
+                <h2>About</h2>
+                <a href="#">Bio</a>
+                <a href="#">Services</a>
+                <a href="#">In the Media</a>
+                <h2 class="menu-title">Things to Do</h2>
+                <a href="#">Good Food</a>
+                <a href="#">Local Travel</a>
+                <a href="#">Arts & Culture</a>
+                <a href="#">Family</a>
+                <a href="#">Festivals</a>
+                <h2 class="menu-title">Contact</h2>
+                <a href="#">Video Blog</a>
+            </nav>
+        </header>
+        <main>
+            <div class="good">Good</div>
+            <div class="food">Food</div>
+            <section>
+                <p>I love to eat! Check out some dishes I've tried and restaurants I recommend you try.</p>
+                <button>Discover</button>
+                <img src="img/good-food.png" alt="Good Food Image">
+            </section>
+            <div class="local">Local</div>
+            <div class="travel">Travel</div>
+            <section class="button-right">
+                <button>Discover</button>
+                <img src="img/local-travel.png" alt="Local Travel Image" class="img-right">
+            </section>
+            <div class="stuff">Stuff
+                <img src="img/svg/heart.svg" alt="Heart Icon" class="heart">
+            </div>
+            <section>
+                <img src="img/fresh-prep.png" alt="Fresh Prep Image" class="img-right">
+                <div class="image-text">Fresh Prep</div>
+                <div class="image-paragraph">Sign up today to enjoy the Fresh Prep difference. Enjoy a more convenient and quality meal kit service delivered to your door.</div>
+                <div class="image-paragraph-bold">Use our discount code for 10% off your first purchase.</div>
+                <a href="#" class="cta">VISIT FRESH PREP</a>
+                <img src="img/carrots.png" alt="Carrots Image" class="centered-img">
+            </section>
+            <section>
+                <div class="farmers-market-text">Farmers' Market</div>
+                <div class="section-paragraph">Edmontonians love farmers' markets and you should too. You'll find everything from fresh local produce to hand-made jewelry, clothing, art, and unique home goods. There is a market for every part of the city, and we've got you covered with this list of favorites.</div>
+                <a href="#" class="section-link">CHECKOUT THE LIST</a>
+                <img src="img/brewery.png" alt="Brewery Image" class="centered-img">
+            </section>
+            <section>
+                <div class="cabin-brewery-text">Cabin Brewery</div>
+                <div class="section-paragraph">Our brewery has a bright and family-friendly tasting room, a retail area, and a small patio, open 6 days a week.</div>
+                <div class="section-paragraph">We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about where we came from and how we make our delicious beer.</div>
+                <a href="#" class="section-link">BOOK A TOUR</a>
+                <img src="img/hot-chocolate.png" alt="Hot Chocolate Image" class="centered-img">
+            </section>
+            <section>
+                <div class="hot-chocolate-text">Hot Chocolate Bombs</div>
+                <div class="section-paragraph">Hot Chocolate Bombs are chocolate spheres filled with homemade chocolate milk powder and marshmallows that are put into a mug with hot milk for a delicious cup of hot cocoa. Try my Best Homemade Hot Cocoa for another rich and creamy hot chocolate recipe.</div>
+                <a href="#" class="section-link">MAKE THIS RECIPE</a>
+            </section>
+            <section class="gray-box">
+                <h2>Video</h2>
+                <h2>Blog</h2>
+                <p>Follow me on my YouTube channel to get news, discounts, and more.</p>
+                <button>Discover</button>
+            </section>
+            <img src="img/camera.jpg" alt="Camera Image" class="centered-img">
+            <section class="footer-border">
+                <h2>About</h2>
+                <a href="#">Bio</a>
+                <a href="#">Services</a>
+                <a href="#">In the Media</a>
+                <div class="menu-list">
+                    <h2>Things to Do</h2>
+                    <a href="#">Good Food</a>
+                    <a href="#">Local Travel</a>
+                    <a href="#">Arts & Culture</a>
+                    <a href="#">Family</a>
+                    <a href="#">Festivals</a>
+                </div>
+                <div class="contact-list">
+                    <h2>Contact</h2>
+                    <a href="#">Video Blog</a>
+                </div>
+                <div class="social-media">
+                    <img src="img/svg/facebook.svg" alt="Facebook">
+                    <img src="img/svg/instagram.svg" alt="Instagram">
+                    <img src="img/svg/youtube.svg" alt="YouTube">
+                    <img src="img/svg/linkedin.svg" alt="LinkedIn">
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
 </html>
